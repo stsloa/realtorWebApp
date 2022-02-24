@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav */
+
+.rNav {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    height: auto;
+    width: 100%;
+    background: red;
+    color: #fff;
+}
+.rNav p {
+    font-size: 30px;
+    width: 100%;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.rNav ul {
+    list-style: none;
+    font-size: 25px;
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    margin-right: 25px;
+    justify-content: end;
+}
+
+.rNav ul a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* <---------- Sections -----------> */
+
+/* First Sections */
+
+.firstSection {
+    display: flex;
+    background: #fff;
+    height: 35vh;
+    width: 100%;
+}
+
+.firstSectionDiv {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+    height: inherit;
+    background: #fff;
+}
+
+
+.porfolioPic {
+    width: 25%;
+    border-radius: 100%;
+    height: inherit;
+    background: black;
+}
+
+.portfolioText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: inherit;
+    border: 5px solid purple;
+    align-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.portfolioText form {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.portfolioText form input {
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.portfolioText form input[type*=submit]:hover {
+    cursor: pointer;
+}
+
+#sub {
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.portfolioDesc {
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.portfolioDesc form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 100%;
+    height: 250px;
+}
+
+.portfolioDesc textarea {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 90%;
+    height: 250px;
+}
+
+.descOptions ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 36px;
+}

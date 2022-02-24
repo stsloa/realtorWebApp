@@ -1,0 +1,55 @@
+.centerContent {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    text-align: center;
+    color: var(--dark);
+    background: var(--light);
+    height: auto;
+    width: 84%;
+    top: 10vh;
+    left: 15%;
+}
+
+.pageContainer {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 5px rgba(0,0,0,0.14);
+    height: 20vh;
+    border: 2px solid var(--dark);
+    background: var(--light);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.pageContainer:hover {
+    box-shadow: 2px 5px var(--dark);
+    animation: 0.2s;
+}
+
+.centerContentTwo {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    color: var(--dark);
+    background: var(--light);
+    height: auto;
+    width: 84%;
+    top: 35vh;
+    left: 15%;
+    text-align: center;
+}
+
+.innerLogs {
+    display: flex;
+    margin: auto;
+    overflow-y: auto;
+    text-align: start;
+    width: 92.5%;
+    height: 12.5vh;
+    border: 3px solid var(--dark);
+    border-radius: 8px;
+}
